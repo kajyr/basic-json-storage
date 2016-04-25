@@ -1,0 +1,25 @@
+{
+  "name": "basic-json-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape 'tests/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajyr/basic-json-storage.git"
+  },
+  "author": "Carlo 'kajyr' <carlo.panzi@gmail.com> (http://kajyr.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajyr/basic-json-storage/issues"
+  },
+  "homepage": "https://github.com/kajyr/basic-json-storage#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
