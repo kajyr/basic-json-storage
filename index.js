@@ -2,15 +2,6 @@
 
 const fs = require('fs');
 
-let exists = (file) => {
-	try {
-		return fs.statSync(file);
-	} catch (e) {
-		return false;
-	}
-}
-
-
 
 let write = (file, data) => {
 	let json = JSON.stringify(data, null, 2);
